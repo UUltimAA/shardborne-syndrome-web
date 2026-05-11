@@ -1,1 +1,414 @@
-﻿[]
+[
+  {
+    "id": "burning_home_01",
+    "title": "Ashes",
+    "description": "I remember a home engulfed in fire. Was it mine? It felt important somehow.",
+    "tags": ["memory", "fire", "kingdom"]
+  },
+  {
+    "id": "burning_home_02",
+    "title": "Smoke",
+    "description": "I remember running through narrow stone streets. Flames everywhere. Shouting behind me. Nowhere to turn.",
+    "tags": ["memory", "fire", "city"]
+  },
+  {
+    "id": "burning_home_03",
+    "title": "The Sky",
+    "description": "The night sky glowed orange. I remember thinking the world itself was ending.",
+    "tags": ["memory", "war", "destruction"],
+    "unlockConditions": ["burning_home_01"]
+  },
+  {
+    "id": "fallen_banner_01",
+    "title": "Torn Colors",
+    "description": "A banner hanging in pieces from a shattered wall. I knew its colors once.",
+    "tags": ["memory", "kingdom"]
+  },
+  {
+    "id": "siege_01",
+    "title": "The Gates",
+    "description": "Heavy impacts against iron gates. Each strike felt closer than the last.",
+    "tags": ["memory", "war", "siege"]
+  },
+  {
+    "id": "siege_02",
+    "title": "The Last Hold",
+    "description": "Someone said the outer walls had fallen. No one argued.",
+    "tags": ["memory", "war", "siege"],
+    "unlockConditions": ["siege_01"]
+  },
+  {
+    "id": "king_01",
+    "title": "The Throne",
+    "description": "An empty throne surrounded by silence. I remember staring at it for a long time.",
+    "tags": ["memory", "kingdom", "loss"]
+  },
+  {
+    "id": "king_02",
+    "title": "No Orders",
+    "description": "Someone kept asking for commands. No answer ever came.",
+    "tags": ["memory", "kingdom", "war"],
+    "unlockConditions": ["king_01"]
+  },
+  {
+    "id": "brother_01",
+    "title": "Familiar Eyes",
+    "description": "I keep seeing the same face in crowds. Familiar. Tired. Angry.",
+    "tags": ["memory", "companion", "fracture"]
+  },
+  {
+    "id": "brother_02",
+    "title": "An Argument",
+    "description": "A voice shouting at me through alarms and shaking walls. I could not understand the words, only the fear behind them.",
+    "tags": ["memory", "companion", "conflict"],
+    "unlockConditions": ["brother_01"]
+  },
+  {
+    "id": "brother_03",
+    "title": "Reaching Hand",
+    "description": "Someone grabbed my arm. Not to hurt me. To stop me.",
+    "tags": ["memory", "companion", "guilt"],
+    "unlockConditions": ["brother_02"]
+  },
+  {
+    "id": "device_01",
+    "title": "The Chamber",
+    "description": "A room beneath the city. Strange machinery humming beneath stone and candlelight.",
+    "tags": ["memory", "device", "science"]
+  },
+  {
+    "id": "device_02",
+    "title": "Impossible Shapes",
+    "description": "Metal rings turning around empty space. Symbols burning brighter than fire.",
+    "tags": ["memory", "device", "magic"],
+    "unlockConditions": ["device_01"]
+  },
+  {
+    "id": "device_03",
+    "title": "They Were Afraid",
+    "description": "The people in the chamber looked terrified. Not of the enemy outside. Of the machine itself.",
+    "tags": ["memory", "device", "fear"],
+    "unlockConditions": ["device_02"]
+  },
+  {
+    "id": "device_04",
+    "title": "It Wasn't Ready",
+    "description": "I remember someone repeating the same words over and over: 'It was never meant to be used.'",
+    "tags": ["memory", "device", "warning"],
+    "unlockConditions": ["device_03"]
+  },
+  {
+    "id": "fracture_01",
+    "title": "White Light",
+    "description": "A flash so bright it erased everything else.",
+    "tags": ["memory", "fracture"]
+  },
+  {
+    "id": "fracture_02",
+    "title": "Weightless",
+    "description": "Falling without wind. Screaming without sound.",
+    "tags": ["memory", "fracture", "distortion"],
+    "unlockConditions": ["fracture_01"]
+  },
+  {
+    "id": "fracture_03",
+    "title": "Shards",
+    "description": "Something pierced through me. Burning. Cold. Alive.",
+    "tags": ["memory", "shardborne", "fracture"],
+    "unlockConditions": ["fracture_02"]
+  },
+  {
+    "id": "fracture_04",
+    "title": "The Split",
+    "description": "I saw people torn away into darkness. Reaching for each other. Vanishing.",
+    "tags": ["memory", "fracture", "loss"],
+    "unlockConditions": ["fracture_03"]
+  },
+  {
+    "id": "echo_01",
+    "title": "Not My Memory",
+    "description": "Sometimes I remember places I know I have never seen.",
+    "tags": ["memory", "distortion"]
+  },
+  {
+    "id": "echo_02",
+    "title": "Another Life",
+    "description": "A child laughing beside a river. I do not know her name, but losing her hurts.",
+    "tags": ["memory", "echo", "emotion"]
+  },
+  {
+    "id": "echo_03",
+    "title": "Borrowed Fear",
+    "description": "For a moment I felt terror that did not belong to me.",
+    "tags": ["memory", "echo", "distortion"]
+  },
+  {
+    "id": "wanderer_01",
+    "title": "Armor",
+    "description": "My hands move like they remember battle even when my mind does not.",
+    "tags": ["memory", "soldier"]
+  },
+  {
+    "id": "wanderer_02",
+    "title": "The Oath",
+    "description": "I remember kneeling before someone important. I swore I would protect something.",
+    "tags": ["memory", "soldier", "kingdom"],
+    "unlockConditions": ["wanderer_01"]
+  },
+  {
+    "id": "wanderer_03",
+    "title": "Failure",
+    "description": "A feeling heavier than grief. As if countless lives slipped through my hands.",
+    "tags": ["memory", "guilt"],
+    "unlockConditions": ["wanderer_02"]
+  },
+  {
+    "id": "syndrome_01",
+    "title": "The Word",
+    "description": "I heard someone whisper a name with fear: 'Shardborne.'",
+    "tags": ["memory", "shardborne"]
+  },
+  {
+    "id": "syndrome_02",
+    "title": "Recognition",
+    "description": "An old woman stared at me like she knew me from another lifetime.",
+    "tags": ["memory", "shardborne", "mystery"]
+  },
+  {
+    "id": "syndrome_03",
+    "title": "The Marked",
+    "description": "There are others like me. Broken in the same invisible way.",
+    "tags": ["memory", "shardborne", "survivors"],
+    "unlockConditions": ["syndrome_01"]
+  },
+  {
+    "id": "legend_01",
+    "title": "The Wanderers",
+    "description": "A story about travelers appearing from nowhere during ancient disasters.",
+    "tags": ["memory", "legend"]
+  },
+  {
+    "id": "legend_02",
+    "title": "The Sleepless King",
+    "description": "A ruined village spoke of a ruler who remembered things that never happened.",
+    "tags": ["memory", "legend", "distortion"]
+  },
+  {
+    "id": "legend_03",
+    "title": "The Saint of Ash",
+    "description": "An old prayer mentioned a figure who came from fire carrying the end of a world.",
+    "tags": ["memory", "legend", "fire"]
+  },
+  {
+    "id": "truth_01",
+    "title": "The Machine",
+    "description": "I think... we built it.",
+    "tags": ["memory", "truth", "device"],
+    "unlockConditions": ["device_04", "wanderer_03"]
+  },
+  {
+    "id": "truth_02",
+    "title": "We Caused This",
+    "description": "The Syndrome did not exist before that night.",
+    "tags": ["memory", "truth", "shardborne"],
+    "unlockConditions": ["truth_01", "fracture_04"]
+  },
+  {
+    "id": "truth_03",
+    "title": "His Face",
+    "description": "I finally remember the man trying to stop me.",
+    "tags": ["memory", "truth", "companion"],
+    "unlockConditions": ["brother_03", "truth_02"]
+  },
+  {
+    "id": "ashes_in_the_wind",
+    "title": "Ashes in the Wind",
+    "description": "A memory flickers briefly before dissolving into smoke.",
+    "loreText": "Ash drifted through the air like black snow. I remember heat against my face... and the feeling that something precious was ending.",
+    "tags": ["memory", "fire", "kingdom"],
+    "effects": [
+      {
+        "type": "modifyEncounterWeight",
+        "target": "global",
+        "statKey": "distortion",
+        "value": 1.05
+      }
+    ]
+  },
+  {
+    "id": "the_sound_of_bells",
+    "title": "The Sound of Bells",
+    "description": "A distant ringing echoes inside your mind.",
+    "loreText": "Bells rang endlessly somewhere above me. Not celebration. Warning. People were screaming beneath them.",
+    "tags": ["memory", "war", "city"]
+  },
+  {
+    "id": "fractured_banner",
+    "title": "Fractured Banner",
+    "description": "You remember carrying something heavy beneath smoke-filled skies.",
+    "loreText": "A torn banner brushed against my shoulder. Red and gold... I think. Men around me were wounded, but still marching.",
+    "tags": ["memory", "soldier"]
+  },
+  {
+    "id": "nameless_brother",
+    "title": "Nameless Brother",
+    "description": "Someone stands beside you in the memory, though their face remains unclear.",
+    "loreText": "There was always someone beside me. Laughing. Arguing. Bleeding. I cannot remember his name, and that frightens me more than the battle.",
+    "tags": ["memory", "companion", "relationship"]
+  },
+  {
+    "id": "sealed_chamber",
+    "title": "Sealed Chamber",
+    "description": "A hidden room surfaces in your thoughts.",
+    "loreText": "Stone walls. Strange machinery. The room trembled each time something struck the great door outside.",
+    "tags": ["memory", "ritual", "science"]
+  },
+  {
+    "id": "voices_beyond_the_door",
+    "title": "Voices Beyond the Door",
+    "description": "You remember desperate shouting.",
+    "loreText": "Someone yelled that the barricade would not hold. Another voice begged for more time.",
+    "tags": ["memory", "siege"]
+  },
+  {
+    "id": "the_device",
+    "title": "The Device",
+    "description": "An impossible object appears briefly in your thoughts.",
+    "loreText": "Metal intertwined with crystal. Veins of light pulsed beneath its surface like a living heart.",
+    "tags": ["memory", "artifact", "distortion"],
+    "effects": [
+      {
+        "type": "modifyEncounterWeight",
+        "target": "global",
+        "statKey": "memory",
+        "value": 1.1
+      }
+    ]
+  },
+  {
+    "id": "forbidden_words",
+    "title": "Forbidden Words",
+    "description": "Fragments of an argument echo in your mind.",
+    "loreText": "\"It was never meant to be used.\" I remember those words clearly. Someone sounded terrified.",
+    "tags": ["memory", "warning"]
+  },
+  {
+    "id": "a_desperate_choice",
+    "title": "A Desperate Choice",
+    "description": "A feeling of urgency overwhelms you.",
+    "loreText": "There was no time left. Everyone looked at me as if waiting for an answer I did not want to give.",
+    "tags": ["memory", "decision"]
+  },
+  {
+    "id": "grasping_arm",
+    "title": "Grasping Arm",
+    "description": "The memory ends with sudden violence.",
+    "loreText": "Someone grabbed my arm before I reached the light. I remember anger in his voice... and fear.",
+    "tags": ["memory", "conflict", "companion"]
+  },
+  {
+    "id": "white_light",
+    "title": "White Light",
+    "description": "The memory burns too brightly to hold.",
+    "loreText": "The world vanished beneath a flood of white. For a moment, I felt myself break apart.",
+    "tags": ["memory", "rift", "distortion"]
+  },
+  {
+    "id": "glass_in_the_skin",
+    "title": "Glass in the Skin",
+    "description": "You instinctively touch your chest.",
+    "loreText": "Something entered me during the explosion. Cold. Sharp. Alive.",
+    "tags": ["memory", "shards", "syndrome"]
+  },
+  {
+    "id": "falling_without_end",
+    "title": "Falling Without End",
+    "description": "A sensation of endless descent fills your thoughts.",
+    "loreText": "I fell through darkness for what felt like centuries. I saw places that could not exist.",
+    "tags": ["memory", "rift", "time"]
+  },
+  {
+    "id": "familiar_stranger",
+    "title": "Familiar Stranger",
+    "description": "Someone you almost recognize appears briefly.",
+    "loreText": "An old traveler stared at me with grief in his eyes. I almost knew him.",
+    "tags": ["memory", "npc", "timeline"]
+  },
+  {
+    "id": "the_broken_crown",
+    "title": "The Broken Crown",
+    "description": "A shattered image flashes before your eyes.",
+    "loreText": "A crown rested upon cracked stone. Abandoned. Forgotten. Waiting.",
+    "tags": ["memory", "kingdom", "ruin"]
+  },
+  {
+    "id": "whispers_of_shardborne",
+    "title": "Whispers of the Shardborne",
+    "description": "The name feels strangely familiar.",
+    "loreText": "They whispered about the Shardborne Syndrome long before I understood why the words felt personal.",
+    "tags": ["memory", "syndrome"]
+  },
+  {
+    "id": "the_old_storykeeper",
+    "title": "The Old Storykeeper",
+    "description": "A memory not entirely your own surfaces.",
+    "loreText": "An old woman spoke of travelers who appeared from fractures in the night sky generations ago.",
+    "tags": ["memory", "legend", "rift"]
+  },
+  {
+    "id": "echoes_of_the_lost",
+    "title": "Echoes of the Lost",
+    "description": "You feel the presence of others.",
+    "loreText": "We were not alone when the world broke. I know that now. Sometimes I hear them in my dreams.",
+    "tags": ["memory", "survivors"]
+  },
+  {
+    "id": "the_first_prophet",
+    "title": "The First Prophet",
+    "description": "A strange figure appears in fragmented visions.",
+    "loreText": "A man covered in glowing fractures warned entire villages about a coming catastrophe. They called him mad until the storms began.",
+    "tags": ["memory", "legend", "shardborne"]
+  },
+  {
+    "id": "the_knight_without_age",
+    "title": "The Knight Without Age",
+    "description": "A rumor surfaces from forgotten history.",
+    "loreText": "Some legends spoke of a warrior who never aged, wandering battlefields long after kingdoms had fallen.",
+    "tags": ["memory", "timeline", "warrior"]
+  },
+  {
+    "id": "cities_beneath_the_earth",
+    "title": "Cities Beneath the Earth",
+    "description": "A hidden civilization flickers in your thoughts.",
+    "loreText": "Some who survived the fracture hid underground, terrified of what they had become.",
+    "tags": ["memory", "survivors", "hidden"]
+  },
+  {
+    "id": "the_other_side_of_time",
+    "title": "The Other Side of Time",
+    "description": "You glimpse something impossible.",
+    "loreText": "I remember seeing him after the fall. Older. Changed. Watching me from across a ruined hall.",
+    "tags": ["memory", "boss", "companion"]
+  },
+  {
+    "id": "the_accusation",
+    "title": "The Accusation",
+    "description": "The memory leaves behind a feeling of guilt.",
+    "loreText": "\"Look at what you've done.\" I do not remember who said it... only that they were right.",
+    "tags": ["memory", "guilt"]
+  },
+  {
+    "id": "the_world_that_should_not_exist",
+    "title": "The World That Should Not Exist",
+    "description": "Reality itself feels wrong for a moment.",
+    "loreText": "This world was not ours. I knew that immediately, though I cannot explain how.",
+    "tags": ["memory", "world", "distortion"]
+  },
+  {
+    "id": "the_last_command",
+    "title": "The Last Command",
+    "description": "A final order echoes through your mind.",
+    "loreText": "\"Protect the kingdom.\" Strange... I cannot even remember its name anymore.",
+    "tags": ["memory", "kingdom", "duty"]
+  }
+]
