@@ -1,1 +1,81 @@
-﻿[]
+[
+  {
+    "id": "ashen-crawler",
+    "name": "Ashen Crawler",
+    "maxHp": 24,
+    "attack": 6,
+    "defense": 1,
+    "speed": 5,
+    "description": "A creature born from the residue of fractured memory. It does not know what it hunts.",
+    "tags": ["creature", "common"]
+  },
+  {
+    "id": "hollow-soldier",
+    "name": "Hollow Soldier",
+    "maxHp": 32,
+    "attack": 7,
+    "defense": 3,
+    "speed": 5,
+    "description": "A warrior who survived the Fracture but lost the reason they fought. The body remembers. The self does not.",
+    "tags": ["human", "common"]
+  },
+  {
+    "id": "memory-echo",
+    "name": "Memory Echo",
+    "maxHp": 20,
+    "attack": 5,
+    "defense": 0,
+    "speed": 8,
+    "description": "A distortion given shape. It carries fragments of someone else's grief and mistakes them for weapons.",
+    "tags": ["distortion", "uncommon"],
+    "onHitEffects": [
+      { "type": "addStatus", "target": "player", "statusId": "fragmented-memory" }
+    ]
+  },
+  {
+    "id": "fractured-sentinel",
+    "name": "Fractured Sentinel",
+    "maxHp": 40,
+    "attack": 8,
+    "defense": 4,
+    "speed": 4,
+    "description": "An echo of a guardian that no longer remembers what it guards. It cannot stand down because it cannot remember the order.",
+    "tags": ["guardian", "uncommon"],
+    "onHitEffects": [
+      { "type": "addStatus", "target": "player", "statusId": "weakened" }
+    ]
+  },
+  {
+    "id": "shard-wraith",
+    "name": "Shard Wraith",
+    "maxHp": 35,
+    "attack": 12,
+    "defense": 1,
+    "speed": 9,
+    "description": "Too many shards. The creature that remains is defined entirely by what was forced into it.",
+    "tags": ["distortion", "rare"]
+  },
+  {
+    "id": "ancient-guardian",
+    "name": "Ancient Guardian",
+    "maxHp": 55,
+    "attack": 9,
+    "defense": 8,
+    "speed": 3,
+    "description": "Something very old that has stood in one place for a very long time. It has forgotten the purpose. Not the post.",
+    "tags": ["guardian", "rare"]
+  },
+  {
+    "id": "the-opposing-soldier",
+    "name": "The Soldier Who Remembered",
+    "maxHp": 80,
+    "attack": 14,
+    "defense": 7,
+    "speed": 6,
+    "description": "He looks at you with grief, not hatred. He has been waiting. He has had time to prepare exactly what he wants to say.",
+    "tags": ["boss", "human"],
+    "onHitEffects": [
+      { "type": "addStatus", "target": "player", "statusId": "shattered-perception" }
+    ]
+  }
+]

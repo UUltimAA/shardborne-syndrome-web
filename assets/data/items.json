@@ -1,1 +1,134 @@
-﻿[]
+[
+  {
+    "id": "remnant-blade",
+    "name": "Remnant Blade",
+    "type": "weapon",
+    "slot": "weapon",
+    "rarity": "common",
+    "description": "A blade that has passed through too many hands to remember its origin.",
+    "tags": ["weapon", "common"]
+  },
+  {
+    "id": "ashen-sword",
+    "name": "Ashen Sword",
+    "type": "weapon",
+    "slot": "weapon",
+    "rarity": "uncommon",
+    "description": "Forged from metal recovered from ruins that should not have metal in them.",
+    "tags": ["weapon", "uncommon"]
+  },
+  {
+    "id": "ancient-blade",
+    "name": "Ancient Blade",
+    "type": "weapon",
+    "slot": "weapon",
+    "rarity": "rare",
+    "description": "The craftsmanship belongs to no kingdom currently standing.",
+    "tags": ["weapon", "rare", "ancient"]
+  },
+  {
+    "id": "ashen-mail",
+    "name": "Ashen Mail",
+    "type": "armor",
+    "slot": "armor",
+    "rarity": "common",
+    "description": "Basic protection assembled from what was available. It has kept someone alive before.",
+    "tags": ["armor", "common"]
+  },
+  {
+    "id": "travelers-coat",
+    "name": "Traveler's Coat",
+    "type": "armor",
+    "slot": "armor",
+    "rarity": "uncommon",
+    "description": "Layered fabric reinforced in ways that suggest long experience with long roads.",
+    "tags": ["armor", "uncommon"]
+  },
+  {
+    "id": "wanderers-wraps",
+    "name": "Wanderer's Wraps",
+    "type": "armor",
+    "slot": "boots",
+    "rarity": "uncommon",
+    "description": "Well-worn. They remember more roads than you do.",
+    "tags": ["boots", "uncommon"]
+  },
+  {
+    "id": "ember-ring",
+    "name": "Ember Ring",
+    "type": "trinket",
+    "slot": "ring1",
+    "rarity": "uncommon",
+    "description": "Warm to the touch. The metal offers no explanation.",
+    "tags": ["ring", "uncommon"]
+  },
+  {
+    "id": "clarity-ring",
+    "name": "Ring of Partial Clarity",
+    "type": "trinket",
+    "slot": "ring2",
+    "rarity": "uncommon",
+    "description": "Wearing it makes the fractures slightly quieter. Partial is better than none.",
+    "tags": ["ring", "uncommon", "mental"]
+  },
+  {
+    "id": "healers-draught",
+    "name": "Healer's Draught",
+    "type": "consumable",
+    "rarity": "common",
+    "description": "A mixture assembled from things that grow in stable places. Tastes like memory.",
+    "tags": ["consumable", "healing", "common"],
+    "effects": [
+      { "type": "heal", "target": "player", "value": 18 }
+    ]
+  },
+  {
+    "id": "wayfarers-poultice",
+    "name": "Wayfarer's Poultice",
+    "type": "consumable",
+    "rarity": "common",
+    "description": "A field remedy that works better than the ingredients suggest it should.",
+    "tags": ["consumable", "healing", "common"],
+    "effects": [
+      { "type": "heal", "target": "player", "value": 10 }
+    ]
+  },
+  {
+    "id": "memory-tonic",
+    "name": "Memory Tonic",
+    "type": "consumable",
+    "rarity": "uncommon",
+    "description": "A bitter draught that briefly steadies perception. The steadiness does not last, but it is enough.",
+    "tags": ["consumable", "mental", "uncommon"],
+    "effects": [
+      { "type": "removeStatus", "target": "player", "statusId": "fragmented-memory" }
+    ]
+  },
+  {
+    "id": "scroll-of-clarity",
+    "name": "Scroll of Clarity",
+    "type": "scroll",
+    "rarity": "uncommon",
+    "description": "Written in a hand you almost recognize. Reading it removes one layer of confusion.",
+    "tags": ["scroll", "mental", "uncommon"],
+    "effects": [
+      { "type": "removeStatus", "target": "player", "statusId": "fragmented-memory" }
+    ]
+  },
+  {
+    "id": "scroll-of-displacement",
+    "name": "Scroll of Displacement",
+    "type": "scroll",
+    "rarity": "rare",
+    "description": "The words shift each time you try to read them. Using it feels like controlled forgetting.",
+    "tags": ["scroll", "distortion", "rare"]
+  },
+  {
+    "id": "memory-shard",
+    "name": "Memory Shard ∅",
+    "type": "memory-relic",
+    "rarity": "rare",
+    "description": "A fragment of something larger. It hums faintly when held. You do not understand why it feels familiar.",
+    "tags": ["memory-relic", "rare", "shard"]
+  }
+]

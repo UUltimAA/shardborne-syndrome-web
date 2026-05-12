@@ -1,1 +1,194 @@
-﻿[]
+[
+  {
+    "id": "battle-ashen-crawler",
+    "type": "battle",
+    "description": "Something moves in the shadow ahead. It has been drawn by distortion, not intention. It will not let you pass.",
+    "optionIds": ["opt-crawler-engage"],
+    "tags": ["battle", "creature"],
+    "rarity": "common",
+    "weight": 25,
+    "maxFloor": 5,
+    "lootTableId": "loot-ashen-crawler"
+  },
+  {
+    "id": "battle-hollow-soldier",
+    "type": "battle",
+    "description": "A soldier stands at the edge of the path. Their eyes focus on you but see something else. They raise their weapon with the precision of training that outlasted understanding.",
+    "optionIds": ["opt-soldier-engage", "opt-soldier-call"],
+    "tags": ["battle", "human"],
+    "rarity": "common",
+    "weight": 22,
+    "maxFloor": 7,
+    "lootTableId": "loot-hollow-soldier"
+  },
+  {
+    "id": "battle-memory-echo",
+    "type": "battle",
+    "description": "A shape that should not be here. It is made of something that has been lost — grief or fear distilled into form. It reaches for you with borrowed intent.",
+    "optionIds": ["opt-echo-engage", "opt-echo-hold"],
+    "tags": ["battle", "distortion"],
+    "rarity": "uncommon",
+    "weight": 14,
+    "minFloor": 2,
+    "maxFloor": 8,
+    "lootTableId": "loot-memory-echo"
+  },
+  {
+    "id": "battle-fractured-sentinel",
+    "type": "battle",
+    "description": "A guardian whose post has outlasted its purpose. The orders were never rescinded. It does not recognize the concept of surrender.",
+    "optionIds": ["opt-sentinel-engage", "opt-sentinel-challenge"],
+    "tags": ["battle", "guardian"],
+    "rarity": "uncommon",
+    "weight": 12,
+    "minFloor": 3,
+    "maxFloor": 9,
+    "lootTableId": "loot-fractured-sentinel"
+  },
+  {
+    "id": "battle-shard-wraith",
+    "type": "battle",
+    "description": "Too many fragments. The creature that remains has been defined entirely by what was forced into it. Pain has made it precise.",
+    "optionIds": ["opt-wraith-engage"],
+    "tags": ["battle", "distortion"],
+    "rarity": "rare",
+    "weight": 6,
+    "minFloor": 5,
+    "lootTableId": "loot-shard-wraith"
+  },
+  {
+    "id": "choice-unmarked-marker",
+    "type": "choice",
+    "description": "A stone marker stands at the edge of a path that should not exist here. The name carved upon it has been partially erased — by weather, or by something else. You recognize the shape of the letters, though you cannot say why.",
+    "optionIds": ["opt-marker-trace", "opt-marker-pass", "opt-marker-push"],
+    "tags": ["choice", "mystery", "memory"],
+    "rarity": "uncommon",
+    "weight": 14
+  },
+  {
+    "id": "choice-crossroads",
+    "type": "choice",
+    "description": "Two paths diverge with no indication of where either leads. An old fire ring at the center suggests others have stopped here before deciding. The ash is cold.",
+    "optionIds": ["opt-cross-left", "opt-cross-right", "opt-cross-rest"],
+    "tags": ["choice", "travel"],
+    "rarity": "common",
+    "weight": 20
+  },
+  {
+    "id": "choice-ancient-ruins",
+    "type": "choice",
+    "description": "A structure older than the local villages has half-collapsed into the hillside. Something was kept here carefully. The careful keeping has outlasted whoever did it.",
+    "optionIds": ["opt-ruins-search", "opt-ruins-take", "opt-ruins-leave"],
+    "tags": ["choice", "ruins"],
+    "rarity": "uncommon",
+    "weight": 12
+  },
+  {
+    "id": "choice-travelers-warning",
+    "type": "choice",
+    "description": "A traveler on the same road stops when they see you. They look at you the way people look at something they have been warned about — not with hostility, exactly, but with recognition.",
+    "optionIds": ["opt-warning-listen", "opt-warning-share", "opt-warning-move"],
+    "tags": ["choice", "npc", "syndrome"],
+    "rarity": "common",
+    "weight": 16
+  },
+  {
+    "id": "memory-burned-home",
+    "type": "memory",
+    "description": "A smell of ash with no source. The sensation of heat that is not here. A memory is pressing against the present moment, trying to be felt.",
+    "optionIds": ["opt-burn-hold", "opt-burn-let"],
+    "tags": ["memory", "fire"],
+    "rarity": "common",
+    "weight": 16
+  },
+  {
+    "id": "memory-sealed-chamber",
+    "type": "memory",
+    "description": "A room you have never been in surfaces with the clarity of direct experience. Stone walls. The sound of machinery. Urgent voices. The memory insists it is real.",
+    "optionIds": ["opt-chamber-reach", "opt-chamber-pull", "opt-chamber-reject"],
+    "tags": ["memory", "device"],
+    "rarity": "uncommon",
+    "weight": 10,
+    "minFloor": 3
+  },
+  {
+    "id": "memory-white-light",
+    "type": "memory",
+    "description": "A moment suspended between one thing and the next. An overwhelming brightness with nothing behind it. The memory has no before and no after — only the light itself, and what it cost.",
+    "optionIds": ["opt-light-let", "opt-light-shield", "opt-light-run"],
+    "tags": ["memory", "fracture"],
+    "rarity": "rare",
+    "weight": 7,
+    "minFloor": 6
+  },
+  {
+    "id": "treasure-remnant-cache",
+    "type": "treasure",
+    "description": "A cache left by someone who intended to return for it. The supplies are intact. The person, clearly, is not coming back.",
+    "optionIds": ["opt-cache-take", "opt-cache-leave"],
+    "tags": ["treasure"],
+    "rarity": "uncommon",
+    "weight": 12
+  },
+  {
+    "id": "treasure-hidden-supply",
+    "type": "treasure",
+    "description": "Concealed beneath a false floor in an otherwise empty structure. Someone wanted this found only by someone who was looking for it.",
+    "optionIds": ["opt-supply-open", "opt-supply-leave"],
+    "tags": ["treasure", "hidden"],
+    "rarity": "common",
+    "weight": 14
+  },
+  {
+    "id": "village-ashvale",
+    "type": "village",
+    "description": "A village where the fractures in your perception quiet. People move without urgency. Smoke rises from chimneys. The world, for once, remembers itself clearly.",
+    "optionIds": ["opt-ashvale-rest", "opt-ashvale-speak", "opt-ashvale-browse", "opt-ashvale-leave"],
+    "tags": ["village", "stable"],
+    "rarity": "uncommon",
+    "weight": 10,
+    "minFloor": 2
+  },
+  {
+    "id": "village-forgotten-post",
+    "type": "village",
+    "description": "An outpost that has been standing empty long enough to develop its own silence. A few people remain. They have stopped asking questions about travelers who arrive from the wrong direction.",
+    "optionIds": ["opt-post-rest", "opt-post-records", "opt-post-leave"],
+    "tags": ["village", "quiet", "ruins"],
+    "rarity": "rare",
+    "weight": 6,
+    "minFloor": 4
+  },
+  {
+    "id": "distortion-fractured-path",
+    "type": "distortion",
+    "description": "The path ahead behaves incorrectly. The same stretch of ground appears twice. The light arrives from the wrong direction. Reality is experiencing difficulty here, and it does not seem to notice.",
+    "optionIds": ["opt-distort-walk", "opt-distort-force", "opt-distort-wait"],
+    "tags": ["distortion", "reality"],
+    "rarity": "rare",
+    "weight": 7,
+    "minFloor": 3
+  },
+  {
+    "id": "merchant-wandering-trader",
+    "type": "merchant",
+    "description": "A trader who travels routes no one else uses. Their goods come from places they do not name. They do not ask where you are going and seem unsurprised by where you have been.",
+    "optionIds": ["opt-merchant-draught", "opt-merchant-scroll", "opt-merchant-browse"],
+    "tags": ["merchant", "trade"],
+    "rarity": "uncommon",
+    "weight": 9,
+    "minFloor": 2
+  },
+  {
+    "id": "boss-the-guardian",
+    "type": "boss",
+    "description": "He has been waiting. You can tell by the way he looks at you — not with surprise, not with rage, but with the specific exhaustion of someone who has spent a very long time preparing for a conversation they did not want to have.",
+    "optionIds": ["opt-boss-advance"],
+    "tags": ["boss", "final"],
+    "rarity": "legendary",
+    "weight": 100,
+    "minFloor": 10,
+    "maxFloor": 10,
+    "lootTableId": "loot-boss"
+  }
+]

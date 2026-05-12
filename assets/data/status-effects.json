@@ -1,1 +1,62 @@
-﻿[]
+[
+  {
+    "id": "fragmented-memory",
+    "name": "Fragmented Memory",
+    "description": "Memory instability disrupts the body's trained responses. Each round costs focus.",
+    "isDebuff": true,
+    "maxDuration": 3,
+    "tags": ["debuff", "mental"],
+    "tickEffects": [
+      { "type": "damage", "target": "player", "value": 1 }
+    ]
+  },
+  {
+    "id": "weakened",
+    "name": "Weakened",
+    "description": "Something in the strike destabilized your footing and your form.",
+    "isDebuff": true,
+    "maxDuration": 2,
+    "tags": ["debuff", "physical"],
+    "tickEffects": [
+      { "type": "damage", "target": "player", "value": 2 }
+    ]
+  },
+  {
+    "id": "shattered-perception",
+    "name": "Shattered Perception",
+    "description": "Reality flickers at the edges of your vision. Reliable action becomes unreliable.",
+    "isDebuff": true,
+    "maxDuration": 4,
+    "tags": ["debuff", "mental", "distortion"],
+    "tickEffects": [
+      { "type": "damage", "target": "player", "value": 1 }
+    ]
+  },
+  {
+    "id": "bleeding",
+    "name": "Bleeding",
+    "description": "A wound that does not close cleanly in this environment.",
+    "isDebuff": true,
+    "maxDuration": 3,
+    "tags": ["debuff", "physical"],
+    "tickEffects": [
+      { "type": "damage", "target": "player", "value": 3 }
+    ]
+  },
+  {
+    "id": "reinforced",
+    "name": "Reinforced",
+    "description": "A moment of clarity hardens your defenses.",
+    "isDebuff": false,
+    "maxDuration": 2,
+    "tags": ["buff", "physical"]
+  },
+  {
+    "id": "focused",
+    "name": "Focused",
+    "description": "The fractures quiet briefly. Your mind becomes clear.",
+    "isDebuff": false,
+    "maxDuration": 2,
+    "tags": ["buff", "mental"]
+  }
+]

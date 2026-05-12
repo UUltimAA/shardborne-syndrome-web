@@ -1,1 +1,66 @@
-﻿[]
+[
+  {
+    "id": "loot-ashen-crawler",
+    "entries": [
+      { "itemId": "healers-draught",    "weight": 60 },
+      { "itemId": "wayfarers-poultice", "weight": 40 }
+    ]
+  },
+  {
+    "id": "loot-hollow-soldier",
+    "entries": [
+      { "itemId": "healers-draught", "weight": 50 },
+      { "itemId": "remnant-blade",   "weight": 30 },
+      { "itemId": "ashen-mail",      "weight": 20 }
+    ]
+  },
+  {
+    "id": "loot-memory-echo",
+    "entries": [
+      { "itemId": "scroll-of-clarity", "weight": 50 },
+      { "itemId": "memory-tonic",      "weight": 30 },
+      { "itemId": "memory-shard",      "weight": 20 }
+    ]
+  },
+  {
+    "id": "loot-fractured-sentinel",
+    "entries": [
+      { "itemId": "healers-draught",   "weight": 45, "minQuantity": 1, "maxQuantity": 2 },
+      { "itemId": "ashen-sword",       "weight": 30 },
+      { "itemId": "wanderers-wraps",   "weight": 25 }
+    ]
+  },
+  {
+    "id": "loot-shard-wraith",
+    "entries": [
+      { "itemId": "ember-ring",              "weight": 30 },
+      { "itemId": "ancient-blade",           "weight": 25 },
+      { "itemId": "scroll-of-displacement",  "weight": 25 },
+      { "itemId": "memory-shard",            "weight": 20 }
+    ]
+  },
+  {
+    "id": "loot-ancient-guardian",
+    "entries": [
+      { "itemId": "ancient-blade",           "weight": 30 },
+      { "itemId": "clarity-ring",            "weight": 30 },
+      { "itemId": "scroll-of-displacement",  "weight": 20 },
+      { "itemId": "memory-shard",            "weight": 20 }
+    ]
+  },
+  {
+    "id": "loot-boss",
+    "entries": [
+      { "itemId": "memory-shard", "weight": 100, "minQuantity": 1, "maxQuantity": 1 }
+    ]
+  },
+  {
+    "id": "loot-treasure-common",
+    "entries": [
+      { "itemId": "healers-draught",    "weight": 40 },
+      { "itemId": "wayfarers-poultice", "weight": 30 },
+      { "itemId": "scroll-of-clarity",  "weight": 20 },
+      { "itemId": "ashen-sword",        "weight": 10 }
+    ]
+  }
+]
