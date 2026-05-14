@@ -179,6 +179,16 @@
     "weight": 9,
     "minFloor": 2
   },
+    {
+    "id": "fire-tree",
+    "type": "treasure",
+    "description": "A tree unlike you ever seen before. Branches are made of fire. Seems dangerous and yet..so inviting.",
+    "optionIds": ["opt-tree-ignore", "opt-tree-search", "opt-tree-kick"],
+    "tags": ["treasure", "fire"],
+    "rarity": "common",
+    "weight": 5,
+    "minFloor": 2
+  },
   {
     "id": "boss-the-guardian",
     "type": "boss",

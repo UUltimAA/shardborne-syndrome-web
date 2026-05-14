@@ -115,6 +115,17 @@
       { "type": "removeStatus", "target": "player", "statusId": "fragmented-memory" }
     ]
   },
+    {
+    "id": "scroll-of-fire",
+    "name": "Scroll of Fire",
+    "type": "scroll",
+    "rarity": "rare",
+    "description": "An old writing promises power. Reading it unleashes a burst of flame.",
+    "tags": ["scroll", "fire", "rare"],
+    "effects": [
+      { "type": "damage", "target": "enemy", "value": 20 }
+    ]
+  },
   {
     "id": "scroll-of-displacement",
     "name": "Scroll of Displacement",
