@@ -59,7 +59,7 @@ Deployed via **GitHub Pages**.
 
 ## Play
 
-**[→ Discover who you are](https://yourusername.github.io/shardborne-syndrome-web/)**
+**[→ Discover who you are](https://uultimaa.github.io/shardborne-syndrome-web/)**
 
 ---
 
